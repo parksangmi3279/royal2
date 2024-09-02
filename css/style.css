@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    /* object-fit: cover;
+    contain: ; */ 
+    width: 100vw; height: 120px;
+    background-color:#d9f0f1;
+    ;
+}
+
+#inner{
+    width: 1180px;
+    height: 120px;
+}
+
+#logo{
+    float: left; 
+    padding-left: 30px;
+}
+
+header #top{
+    font-size: 20px;
+    float: right;
+    margin-top: 80px;
+    color: white;
+}
+header #top li {
+    float: left; } 
+    /* <-왼쪽부터 순서대로 정렬시키기 */
+
+header #top li a{
+    font: bold 15px arial;
+    padding: 20px 40px;
+}
+
+body{
+    background-color: #f9f7d6;
+}
+
+#logo{
+    float: left;
+    padding-left: 30px;
+}
+
+#top{
+    float: right;
+    margin: 80px 50px 0;
+    color: #fdfafa;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#qq {width: 275px;
+    margin: 0 auto;}
+
+#aa{
+    font-family: "a로케트";
+    font-size: 20px;
+    color: chocolate;
+text-align: center;
+padding: 50px;}
+
+
+
+table{
+    width: 700px;
+    height: 800px;
+    background-color:#fbefe5;
+    margin: 0 auto;
+}
+
+input{background-color: rgb(228, 232, 231);
+    border: none;
+    padding: 6px 20px;}
+    
+    input:focus{
+        background-color: rgb(241, 249, 162);
+        outline:none ;
+    }
+    
+    input [type="password"]
+    {border: 2px dotted yellow;}
+    
+    #nn{
+    background-color: blueviolet;}
+    
+    button{cursor: ;}
+    
+    button:first-child{
+        margin-right: 30px;
+    }
+    select{
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        background-color:#f9f7d6;
+    }
+    button{
+        width: 300px;height: 40px;
+        background-color: #4a55a5;
+        font-family: "윤고딕160";
+        color: white;
+        box-shadow: 0 4px 6px rgb(104, 104, 105);
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+    }
+    button:focus{outline: 0;}
+
+    button:hover{
+        cursor: pointer;
+    }
+
+footer{
+    float: right;
+    width: 100vw;
+    border-top: 1px solid #000;
+    margin-top: 30px;
+    background-color:#d9f0f1;
+
+}
+
+footer .a{
+    float: right;
+    padding: 20px;
+}
